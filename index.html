@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/var.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <section role="contentinfo" class="dashboard">
+    <header class="header">
+      <div class="header__top">
+        <img class="header__img" src="images/image-jeremy.png" alt="perfil Jeremy Robson">
+        <div class="header__data">
+          <h1 class="header__report">Report for</h1>
+          <h2 class="header__nameUser">Jeremy Robson</h2>
+        </div>
+      </div>
+      <nav role="navigation" class="nav">
+        <button id="daily" aria-expanded="false" aria-controls="" class="nav_button">Daily</button>
+        <button id="weekly" aria-expanded="false" aria-controls="" class="nav_button">Weekly</button>
+        <button id="monthly" aria-expanded="false" aria-controls="" class="nav_button pb-2">Monthly</button>
+      </nav>
+    </header>
+    <article id="work" class="article article-orange" title="Work">
+      <img class="articles__banner" src="images/icon-work.svg" alt="icon Work dashboard">
+    </article>
+    <article id="play" class="article article-blue" title="Play">
+      <img class="articles__banner" src="images/icon-play.svg" alt="icon Play dashboard">
+    </article>
+    <article id="study" class="article article-red" title="Study">
+      <img class="articles__banner" src="images/icon-study.svg" alt="icon Study dashboard">
+    </article>
+    <article id="exercise" class="article article-green" title="Exercise">
+      <img class="articles__banner" src="images/icon-exercise.svg" alt="icon Exercise dashboard">
+    </article>
+    <article id="social" class="article article-violet" title="Social">
+      <img class="articles__banner" src="images/icon-social.svg" alt="icon Social dashboard">
+    </article>
+    <article id="self_care" class="article article-yellow" title="Self Care">
+      <img class="articles__banner" src="images/icon-self-care.svg" alt="icon Self Care dashboard">
+    </article>
+  </section>
+  
+  <div class="attribution flex justify-center flex-wrap">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">hunigole san</a>.
+  </div>
+  <script type="module" src="js/show_data.js"></script>
+</body>
+</html>
