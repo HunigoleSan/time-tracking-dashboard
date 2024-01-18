@@ -1,6 +1,12 @@
-.attribution { font-size: 1.6rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 1.6rem; text-align: center; 
+    color: white;
+    gap: .5rem;
+}
+.attribution a { 
+    color: var(--Light-orange);
 
+}
 
 .flex{
     display:flex;
@@ -223,13 +229,7 @@ body{
         width: auto;
         grid-template-columns: repeat(4,310px);
     }
-    .attribution{
-        color: white;
-        gap: .5rem;
-    }
-    .attribution > a{
-        color: var(--Light-orange);
-    }
+    
     
 
 }
