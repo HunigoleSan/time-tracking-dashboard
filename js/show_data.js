@@ -27,7 +27,6 @@ window.document.addEventListener("DOMContentLoaded",function(){
                 if(button.id == targetId){
                     button.classList.add("nav_button-active")
                     button.setAttribute("aria-expanded", "true");
-                    console.log("button iguales id")
                 }else{
                     button.classList.remove("nav_button-active")
                     button.setAttribute("aria-expanded", "false");
